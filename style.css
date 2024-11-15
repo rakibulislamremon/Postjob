@@ -1,0 +1,173 @@
+/*Global*/
+body {
+    font-family: 'ABeeZee'
+}
+/*navbar*/
+.navbar {
+    background-color: #161815;
+}
+.navbar-nav, .nav-item{
+    color: white;
+}
+.signin ,.create{
+    border: 1px solid #6DE754;
+    color:white;          
+    background-color: transparent;
+}
+/*hero*/
+.getstrat{
+    font-weight:600;
+    padding:8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #6DE754;
+    border: none;
+}
+.win{
+    color: #6DE754;
+}
+.hero,.create-account{
+    background-color:#161815;
+}
+.hero-text,.account-text{
+    font-size: 60px;
+    color: white;
+}
+.paragraph ,.resume-p{
+    color:#909090;
+}
+/*Email Input*/
+.custom-input-group {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+}
+.custom-email-input {
+    background-color:transparent; 
+    color: #ffffff; 
+    border: 1px solid #aaaaaa;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.custom-email-input::placeholder {
+    color: #aaaaaa;
+}
+.custom-btn {
+    background-color: #6DE754; 
+    color: black;
+    border: none;
+    padding: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: bold;
+}
+.custom-btn:hover {
+    color: white;
+    background-color: #6DE754;
+}
+
+/*card*/
+.box ,.image-section{
+    background-color:#161815; 
+}
+.section-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+.section-subtitle {
+    color: #777;
+    font-size: 15px;
+}
+.box-card {
+    background-color: #1E201D;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    text-align: left; 
+}
+.expertise-card:hover {
+    border-bottom: solid #6DE754 ;
+    border-radius: 8px;
+    transform: translateY(-5px);
+}
+.icon {
+    width: 40px; 
+    height: 40px;
+}
+.expertise-title {
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0.8rem;
+}
+.expertise-text {
+    color: #909090;
+    font-size: 0.95rem;
+}
+
+/* image */
+.image-section{
+    padding: 30px;
+}
+.image-container{
+    background-color:#6DE754;
+    border-radius: 20px;
+}
+.fast{
+    font-size: 80px;
+    padding-bottom: 20x;
+}
+.box-image{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.text{
+    padding-top: 30px;
+}
+
+/* Free ai*/
+.freeai ,.whatsnext{
+    background-color: #6DE754;
+}
+.freeaip{
+    font-size:14px;
+    width: 100%;
+}
+.try-free{
+    border: 1px solid #161815;
+    color:#1E201D;          
+    background-color: transparent;
+}
+
+/*Resume*/
+.resume{
+    background-color: #161815;
+}
+.resume-text{
+    color: white;
+}
+
+/*footer*/
+.footer { 
+    background-color: #161815; 
+    color: white; 
+    padding: 40px 0; 
+}
+.list-unstyled{
+    font-size: 12px;
+}
+.footer a { 
+    color: #fff; 
+    text-decoration: none; 
+} 
+.footer a:hover { 
+    text-decoration: underline; 
+} 
+.social-icons img { 
+    width: 24px; 
+    height: 24px;
+    margin-right: 10px;
+}
